@@ -1,0 +1,35 @@
+// Default Mixins
+
+.border-radius(@radius) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.box-shadow (@boxShadow) {
+    -webkit-box-shadow: @boxShadow;
+    -moz-box-shadow: @boxShadow;
+    box-shadow: @boxShadow;
+}
+
+.backgroundCover(@backGroundCover){
+-webkit-background-size: @backGroundCover;
+  -moz-background-size: @backGroundCover;
+  -o-background-size: @backGroundCover;
+  background-size: @backGroundCover;
+}
+//pragraphs
+
+.MainText {
+    font-family: @MainFont;
+    color: @mainColor;
+    font-size: 13px;
+     line-height: 18px;
+    font-weight: bold;
+}
+.SubMainText {
+    font-family: @MainFont;
+    color: @submanColor;
+    font-size: 12px;
+    line-height: 18px;
+}
